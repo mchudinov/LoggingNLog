@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NLog;
+﻿using NLog;
 
 namespace LoggingNLog
 {
     class Program
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+        static Logger logger = LogManager.GetCurrentClassLogger();
 
         static void Main(string[] args)
         {
