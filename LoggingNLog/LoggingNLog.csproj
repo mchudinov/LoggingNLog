@@ -33,7 +33,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NLog">
-      <HintPath>..\packages\NLog.3.2.0.0\lib\net45\NLog.dll</HintPath>
+      <HintPath>..\packages\NLog.4.2.1\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="NLog.Targets.Syslog">
       <HintPath>..\packages\NLog.Targets.Syslog.2.1.5491.28378\lib\net35\NLog.Targets.Syslog.dll</HintPath>
